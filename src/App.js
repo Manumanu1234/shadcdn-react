@@ -1,25 +1,18 @@
-import logo from './logo.svg';
+
+import { LogIn } from 'lucide-react';
 import './App.css';
+import Shadcdnpro from './comp/shadcdnproject/Shadcdnpro';
+import Shadpage1 from './comp/shadpages/Shadpage1';
+
+import { Button } from "./components/ui/button"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div className='totl'>
+     <Shadcdnpro></Shadcdnpro>
     </div>
-  );
+  )
 }
 
 export default App;

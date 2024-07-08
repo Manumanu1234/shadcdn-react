@@ -1,0 +1,88 @@
+.Nav{
+    display: flex;
+    flex: 0.8;
+    flex-direction: row;
+    gap: 60px;
+    margin-left: 50px;
+    align-items: center;
+    padding: 5px;
+    
+}
+.headnav{
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+.button1{
+  display: flex;
+  margin-right: 10px;
+}
+.Nav2{
+  display: flex;
+  flex: 0.9;
+  float:right;
+  margin-right: 10px;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  padding: 5px;
+ 
+}
+.pageshad{
+    margin-top: 150px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+.Pageheading{
+  text-align: center;
+}
+.DetailHeading{
+  font-size: 3.75rem;
+  font-weight: bold;
+  line-height: 1;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+.DetailPara{
+  margin-top: 30px;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: hsl(var(--muted-foreground));
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.ButnGit{
+  margin-top: 30px;
+display: flex;
+justify-content: center;
+gap: 15px;
+align-items: center;
+}
+.itcomp{
+  padding: 10px;
+}
+.Twitter{
+  margin-bottom: 10px;
+}
+.totalF{
+  margin-top: 200px;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+
+}
+.Twocard1{
+  margin-top: 50px;
+}
+
+.TwCards{
+ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: space-around;
+
+  align-items: center;
+
+}

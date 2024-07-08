@@ -1,0 +1,48 @@
+.totalcontainer{
+    background-color: rgb(241, 237, 231);
+    height: 1000px;
+}
+
+.Headindiv{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.heading{
+    font-size: 2.5rem;
+    font-weight: normal;
+    max-width: 500px;
+   padding-top: 120px;
+}
+
+.Hedingbtn{
+    
+    margin-top: 30px;
+}
+.explore{
+    background-color: #e5e5e5;
+    color: #000;
+    border-radius: 20px;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    
+}
+.growupicon{
+    margin-left: 8px;
+    display: inline-flex;
+    justify-content: center
+}
+@media (max-width: 768px) {
+    .Headindiv {
+        align-items: center;
+      }
+  }
